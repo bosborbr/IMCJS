@@ -1,12 +1,33 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IMC</title>
+    <title>calculo IMC</title>
 </head>
 <body>
+    <h1 style="text-align: center;">IMC</h1>
+
+    <form style="text-align: center;">
+        <p>Digite seu peso em Kilos e sua altura em Metros</p>
+
+    <p>
+        <label for="peso">Seu peso:</label>
+        <input type="number" name="peso" id="peso">
+    </p>
+        
+    <p>    
+        <label for="altura">Sua altura:</label>
+        <input type="number" name="altura" id="altura">
+    </p>
+    <p>
+        <input type="button" value="calcular" id="calcular">
+    </p>
+
+        <div id="resultado"></div>
+    </form>
+    
     <script src="index.js"></script>
 </body>
 </html>
